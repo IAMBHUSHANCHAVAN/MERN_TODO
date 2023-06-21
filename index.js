@@ -7,7 +7,7 @@ const app = express()
 const PORT = 8050;
 const cors = require("cors");
 // const connectDB = require("./src/config/dbConnect");
-// connectDB()
+// connectDB()   some error while importing
 mongoose.connect("mongodb+srv://bhushanchavan:eWhut6Qo4Z3979hN@cluster1.ztqa1jw.mongodb.net/")
 app.use(cors())
 app.use(express.json())
